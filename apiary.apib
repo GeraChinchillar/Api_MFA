@@ -1,0 +1,32 @@
+FORMAT: 1A
+HOST: https://polls.apiblueprint.org/
+
+# mfa
+
+ `GET Channels`
+ 
+## Get Channels [/channels]
+
+### Name [GET]
+
++ Response 200 (application/json)
+
+        {
+            "channels":[
+                {
+                    "id": "12344",
+                    "name": "WEB update test",
+                    "description": "canal web update test"
+                },
+                {
+                    "id": "4ecc1cc2-a608-11ec-b909-0242ac120002",
+                    "name": "white label",
+                    "description": "Canal para white label"
+                },
+                {
+                    "id": "6ef5923a-a608-11ec-b909-0242ac120002",
+                    "name": "App movil",
+                    "description": "Canal para app movil"
+                }
+            ]
+        }
